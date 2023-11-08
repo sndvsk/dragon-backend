@@ -1,0 +1,4058 @@
+[
+  {
+    "event": "StartGame",
+    "request": null,
+    "response": {
+      "gameId": "QLSk8wmB",
+      "lives": 3,
+      "gold": 0,
+      "level": 0,
+      "score": 0,
+      "highScore": 0,
+      "turn": 0
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "3A2s6hjh",
+        "message": "Help Ugo Prescott to sell an unordinary cat on the local market",
+        "reward": 19,
+        "expiresIn": 7,
+        "probability": "Walk in the park",
+        "encrypted": null
+      },
+      {
+        "adId": "yCuKHy3H",
+        "message": "Help Ludmila Scrivenor to reach an agreement with Neely Fairclough on the matters of disputed house",
+        "reward": 10,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "79tBlLUc",
+        "message": "Help Eadwine Hambledon to reach an agreement with Margareeta Joplin on the matters of disputed weed",
+        "reward": 10,
+        "expiresIn": 7,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "j3zyz3lo",
+        "message": "Help Takondwa Hayward to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 43,
+        "expiresIn": 7,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "v7zhYfer",
+        "message": "Escort Budur Edgell to grassland in Eastfire where they can meet with their long lost sheep",
+        "reward": 59,
+        "expiresIn": 7,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "dpCetogY",
+        "message": "Help Dodie Benjaminson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 34,
+        "expiresIn": 7,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "aU4VJfhe",
+        "message": "Help Yered Clifford to reach an agreement with Filomena Proudfoot on the matters of disputed wagon",
+        "reward": 9,
+        "expiresIn": 7,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "WUBm7H2j",
+        "message": "Create an advertisement campaign for Regena Robertson to promote their house based business",
+        "reward": 27,
+        "expiresIn": 7,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "RYzP0A2K",
+        "message": "Help Averill Westcott to fix their sheep",
+        "reward": 10,
+        "expiresIn": 7,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "xmFxoQcv",
+        "message": "Steal pot delivery to Trina Sandford and share some of the profits with the people.",
+        "reward": 66,
+        "expiresIn": 7,
+        "probability": "Sure thing",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "3A2s6hjh"
+    },
+    "response": {
+      "success": false,
+      "lives": 2,
+      "gold": 0,
+      "score": 0,
+      "highScore": 0,
+      "turn": 1,
+      "message": "You failed on the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "yCuKHy3H",
+        "message": "Help Ludmila Scrivenor to reach an agreement with Neely Fairclough on the matters of disputed house",
+        "reward": 10,
+        "expiresIn": 6,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "79tBlLUc",
+        "message": "Help Eadwine Hambledon to reach an agreement with Margareeta Joplin on the matters of disputed weed",
+        "reward": 10,
+        "expiresIn": 6,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "j3zyz3lo",
+        "message": "Help Takondwa Hayward to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 43,
+        "expiresIn": 6,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "v7zhYfer",
+        "message": "Escort Budur Edgell to grassland in Eastfire where they can meet with their long lost sheep",
+        "reward": 59,
+        "expiresIn": 6,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "dpCetogY",
+        "message": "Help Dodie Benjaminson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 34,
+        "expiresIn": 6,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "aU4VJfhe",
+        "message": "Help Yered Clifford to reach an agreement with Filomena Proudfoot on the matters of disputed wagon",
+        "reward": 9,
+        "expiresIn": 6,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "WUBm7H2j",
+        "message": "Create an advertisement campaign for Regena Robertson to promote their house based business",
+        "reward": 27,
+        "expiresIn": 6,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "RYzP0A2K",
+        "message": "Help Averill Westcott to fix their sheep",
+        "reward": 10,
+        "expiresIn": 6,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "xmFxoQcv",
+        "message": "Steal pot delivery to Trina Sandford and share some of the profits with the people.",
+        "reward": 66,
+        "expiresIn": 6,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "jQwxdDej",
+        "message": "Help Frona Jarrett to reach an agreement with Yesenia Wannell on the matters of disputed pan",
+        "reward": 10,
+        "expiresIn": 7,
+        "probability": "Sure thing",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "yCuKHy3H"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 10,
+      "score": 10,
+      "highScore": 0,
+      "turn": 2,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "79tBlLUc",
+        "message": "Help Eadwine Hambledon to reach an agreement with Margareeta Joplin on the matters of disputed weed",
+        "reward": 10,
+        "expiresIn": 5,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "j3zyz3lo",
+        "message": "Help Takondwa Hayward to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 43,
+        "expiresIn": 5,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "v7zhYfer",
+        "message": "Escort Budur Edgell to grassland in Eastfire where they can meet with their long lost sheep",
+        "reward": 59,
+        "expiresIn": 5,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "dpCetogY",
+        "message": "Help Dodie Benjaminson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 34,
+        "expiresIn": 5,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "aU4VJfhe",
+        "message": "Help Yered Clifford to reach an agreement with Filomena Proudfoot on the matters of disputed wagon",
+        "reward": 9,
+        "expiresIn": 5,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "WUBm7H2j",
+        "message": "Create an advertisement campaign for Regena Robertson to promote their house based business",
+        "reward": 27,
+        "expiresIn": 5,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "RYzP0A2K",
+        "message": "Help Averill Westcott to fix their sheep",
+        "reward": 10,
+        "expiresIn": 5,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "xmFxoQcv",
+        "message": "Steal pot delivery to Trina Sandford and share some of the profits with the people.",
+        "reward": 66,
+        "expiresIn": 5,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "jQwxdDej",
+        "message": "Help Frona Jarrett to reach an agreement with Yesenia Wannell on the matters of disputed pan",
+        "reward": 10,
+        "expiresIn": 6,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "djxU7lPg",
+        "message": "Help Hode Bannister to sell an unordinary horse on the local market",
+        "reward": 10,
+        "expiresIn": 7,
+        "probability": "Quite likely",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "RYzP0A2K"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 20,
+      "score": 20,
+      "highScore": 0,
+      "turn": 3,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "79tBlLUc",
+        "message": "Help Eadwine Hambledon to reach an agreement with Margareeta Joplin on the matters of disputed weed",
+        "reward": 10,
+        "expiresIn": 4,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "j3zyz3lo",
+        "message": "Help Takondwa Hayward to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 43,
+        "expiresIn": 4,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "v7zhYfer",
+        "message": "Escort Budur Edgell to grassland in Eastfire where they can meet with their long lost sheep",
+        "reward": 59,
+        "expiresIn": 4,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "dpCetogY",
+        "message": "Help Dodie Benjaminson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 34,
+        "expiresIn": 4,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "aU4VJfhe",
+        "message": "Help Yered Clifford to reach an agreement with Filomena Proudfoot on the matters of disputed wagon",
+        "reward": 9,
+        "expiresIn": 4,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "WUBm7H2j",
+        "message": "Create an advertisement campaign for Regena Robertson to promote their house based business",
+        "reward": 27,
+        "expiresIn": 4,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "xmFxoQcv",
+        "message": "Steal pot delivery to Trina Sandford and share some of the profits with the people.",
+        "reward": 66,
+        "expiresIn": 4,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "jQwxdDej",
+        "message": "Help Frona Jarrett to reach an agreement with Yesenia Wannell on the matters of disputed pan",
+        "reward": 10,
+        "expiresIn": 5,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "djxU7lPg",
+        "message": "Help Hode Bannister to sell an unordinary horse on the local market",
+        "reward": 10,
+        "expiresIn": 6,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "cGbvCfJr",
+        "message": "Help Dollie Langdon to fix their pan",
+        "reward": 4,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "jQwxdDej"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 30,
+      "score": 30,
+      "highScore": 0,
+      "turn": 4,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "79tBlLUc",
+        "message": "Help Eadwine Hambledon to reach an agreement with Margareeta Joplin on the matters of disputed weed",
+        "reward": 10,
+        "expiresIn": 3,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "j3zyz3lo",
+        "message": "Help Takondwa Hayward to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 43,
+        "expiresIn": 3,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "v7zhYfer",
+        "message": "Escort Budur Edgell to grassland in Eastfire where they can meet with their long lost sheep",
+        "reward": 59,
+        "expiresIn": 3,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "dpCetogY",
+        "message": "Help Dodie Benjaminson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 34,
+        "expiresIn": 3,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "aU4VJfhe",
+        "message": "Help Yered Clifford to reach an agreement with Filomena Proudfoot on the matters of disputed wagon",
+        "reward": 9,
+        "expiresIn": 3,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "WUBm7H2j",
+        "message": "Create an advertisement campaign for Regena Robertson to promote their house based business",
+        "reward": 27,
+        "expiresIn": 3,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "xmFxoQcv",
+        "message": "Steal pot delivery to Trina Sandford and share some of the profits with the people.",
+        "reward": 66,
+        "expiresIn": 3,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "djxU7lPg",
+        "message": "Help Hode Bannister to sell an unordinary horse on the local market",
+        "reward": 10,
+        "expiresIn": 5,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "cGbvCfJr",
+        "message": "Help Dollie Langdon to fix their pan",
+        "reward": 4,
+        "expiresIn": 6,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "ubXDWcSC",
+        "message": "Help Kayla Brigham to fix their potatoes",
+        "reward": 8,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "ubXDWcSC"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 38,
+      "score": 38,
+      "highScore": 0,
+      "turn": 5,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "79tBlLUc",
+        "message": "Help Eadwine Hambledon to reach an agreement with Margareeta Joplin on the matters of disputed weed",
+        "reward": 10,
+        "expiresIn": 2,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "j3zyz3lo",
+        "message": "Help Takondwa Hayward to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 43,
+        "expiresIn": 2,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "v7zhYfer",
+        "message": "Escort Budur Edgell to grassland in Eastfire where they can meet with their long lost sheep",
+        "reward": 59,
+        "expiresIn": 2,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "dpCetogY",
+        "message": "Help Dodie Benjaminson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 34,
+        "expiresIn": 2,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "aU4VJfhe",
+        "message": "Help Yered Clifford to reach an agreement with Filomena Proudfoot on the matters of disputed wagon",
+        "reward": 9,
+        "expiresIn": 2,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "WUBm7H2j",
+        "message": "Create an advertisement campaign for Regena Robertson to promote their house based business",
+        "reward": 27,
+        "expiresIn": 2,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "xmFxoQcv",
+        "message": "Steal pot delivery to Trina Sandford and share some of the profits with the people.",
+        "reward": 66,
+        "expiresIn": 2,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "djxU7lPg",
+        "message": "Help Hode Bannister to sell an unordinary horse on the local market",
+        "reward": 10,
+        "expiresIn": 4,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "cGbvCfJr",
+        "message": "Help Dollie Langdon to fix their pan",
+        "reward": 4,
+        "expiresIn": 5,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "x8k1OdrI",
+        "message": "Steal pan delivery to Guo Abrahamson and share some of the profits with the people.",
+        "reward": 67,
+        "expiresIn": 7,
+        "probability": "Walk in the park",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "cGbvCfJr"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 42,
+      "score": 42,
+      "highScore": 0,
+      "turn": 6,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "79tBlLUc",
+        "message": "Help Eadwine Hambledon to reach an agreement with Margareeta Joplin on the matters of disputed weed",
+        "reward": 10,
+        "expiresIn": 1,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "j3zyz3lo",
+        "message": "Help Takondwa Hayward to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 43,
+        "expiresIn": 1,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "v7zhYfer",
+        "message": "Escort Budur Edgell to grassland in Eastfire where they can meet with their long lost sheep",
+        "reward": 59,
+        "expiresIn": 1,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "dpCetogY",
+        "message": "Help Dodie Benjaminson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 34,
+        "expiresIn": 1,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "aU4VJfhe",
+        "message": "Help Yered Clifford to reach an agreement with Filomena Proudfoot on the matters of disputed wagon",
+        "reward": 9,
+        "expiresIn": 1,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "WUBm7H2j",
+        "message": "Create an advertisement campaign for Regena Robertson to promote their house based business",
+        "reward": 27,
+        "expiresIn": 1,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "xmFxoQcv",
+        "message": "Steal pot delivery to Trina Sandford and share some of the profits with the people.",
+        "reward": 66,
+        "expiresIn": 1,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "djxU7lPg",
+        "message": "Help Hode Bannister to sell an unordinary horse on the local market",
+        "reward": 10,
+        "expiresIn": 3,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "x8k1OdrI",
+        "message": "Steal pan delivery to Guo Abrahamson and share some of the profits with the people.",
+        "reward": 67,
+        "expiresIn": 6,
+        "probability": "Walk in the park",
+        "encrypted": null
+      },
+      {
+        "adId": "Pp3M23Ux",
+        "message": "Create an advertisement campaign for Dorka Rennoll to promote their potatoes based business",
+        "reward": 25,
+        "expiresIn": 7,
+        "probability": "Quite likely",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "x8k1OdrI"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 109,
+      "score": 109,
+      "highScore": 0,
+      "turn": 7,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "djxU7lPg",
+        "message": "Help Hode Bannister to sell an unordinary horse on the local market",
+        "reward": 10,
+        "expiresIn": 2,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "Pp3M23Ux",
+        "message": "Create an advertisement campaign for Dorka Rennoll to promote their potatoes based business",
+        "reward": 25,
+        "expiresIn": 6,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "P14qocFk",
+        "message": "Help Ebbe Britton to sell an unordinary chicken on the local market",
+        "reward": 19,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "pTU7LxBk",
+        "message": "Help Grant Harland to reach an agreement with Shemer Gabrielson on the matters of disputed beer mug",
+        "reward": 16,
+        "expiresIn": 7,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "epkO11xD",
+        "message": "Steal house delivery to Rhode Phillips and share some of the profits with the people.",
+        "reward": 70,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "VbWjHAcV",
+        "message": "Escort Hunberct Blankenship to meadow in Metalwhyte where they can meet with their long lost weed",
+        "reward": 72,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "ImM9V3Gt",
+        "message": "Create an advertisement campaign for Edward Kendrick to promote their chicken based business",
+        "reward": 37,
+        "expiresIn": 7,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "fbn00UPA",
+        "message": "Help Anant Peterson to reach an agreement with Neo Wickham on the matters of disputed chicken",
+        "reward": 8,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "gM1EgdHI",
+        "message": "Steal house delivery to Pavica Christopherson and share some of the profits with the people.",
+        "reward": 63,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "6NdQ0AqJ",
+        "message": "Create an advertisement campaign for Vayu Kimberley to promote their house based business",
+        "reward": 17,
+        "expiresIn": 7,
+        "probability": "Playing with fire",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "VbWjHAcV"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 181,
+      "score": 181,
+      "highScore": 0,
+      "turn": 8,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "BuyItem",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "itemId": "cs"
+    },
+    "response": {
+      "shoppingSuccess": true,
+      "gold": 81,
+      "lives": 2,
+      "level": 1,
+      "turn": 9
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "Pp3M23Ux",
+        "message": "Create an advertisement campaign for Dorka Rennoll to promote their potatoes based business",
+        "reward": 25,
+        "expiresIn": 4,
+        "probability": "Walk in the park",
+        "encrypted": null
+      },
+      {
+        "adId": "P14qocFk",
+        "message": "Help Ebbe Britton to sell an unordinary chicken on the local market",
+        "reward": 19,
+        "expiresIn": 5,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "pTU7LxBk",
+        "message": "Help Grant Harland to reach an agreement with Shemer Gabrielson on the matters of disputed beer mug",
+        "reward": 16,
+        "expiresIn": 5,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "epkO11xD",
+        "message": "Steal house delivery to Rhode Phillips and share some of the profits with the people.",
+        "reward": 70,
+        "expiresIn": 5,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "ImM9V3Gt",
+        "message": "Create an advertisement campaign for Edward Kendrick to promote their chicken based business",
+        "reward": 37,
+        "expiresIn": 5,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "fbn00UPA",
+        "message": "Help Anant Peterson to reach an agreement with Neo Wickham on the matters of disputed chicken",
+        "reward": 8,
+        "expiresIn": 5,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "gM1EgdHI",
+        "message": "Steal house delivery to Pavica Christopherson and share some of the profits with the people.",
+        "reward": 63,
+        "expiresIn": 5,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "6NdQ0AqJ",
+        "message": "Create an advertisement campaign for Vayu Kimberley to promote their house based business",
+        "reward": 17,
+        "expiresIn": 5,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "Iy3z8xQ9",
+        "message": "Steal pot delivery to Max Nielson and share some of the profits with the people.",
+        "reward": 62,
+        "expiresIn": 6,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "u3WofnTR",
+        "message": "Create an advertisement campaign for Desmond Courtenay to promote their wagon based business",
+        "reward": 21,
+        "expiresIn": 7,
+        "probability": "Gamble",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "Pp3M23Ux"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 106,
+      "score": 206,
+      "highScore": 0,
+      "turn": 10,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "P14qocFk",
+        "message": "Help Ebbe Britton to sell an unordinary chicken on the local market",
+        "reward": 19,
+        "expiresIn": 4,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "pTU7LxBk",
+        "message": "Help Grant Harland to reach an agreement with Shemer Gabrielson on the matters of disputed beer mug",
+        "reward": 16,
+        "expiresIn": 4,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "epkO11xD",
+        "message": "Steal house delivery to Rhode Phillips and share some of the profits with the people.",
+        "reward": 70,
+        "expiresIn": 4,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "ImM9V3Gt",
+        "message": "Create an advertisement campaign for Edward Kendrick to promote their chicken based business",
+        "reward": 37,
+        "expiresIn": 4,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "fbn00UPA",
+        "message": "Help Anant Peterson to reach an agreement with Neo Wickham on the matters of disputed chicken",
+        "reward": 8,
+        "expiresIn": 4,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "gM1EgdHI",
+        "message": "Steal house delivery to Pavica Christopherson and share some of the profits with the people.",
+        "reward": 63,
+        "expiresIn": 4,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "6NdQ0AqJ",
+        "message": "Create an advertisement campaign for Vayu Kimberley to promote their house based business",
+        "reward": 17,
+        "expiresIn": 4,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "Iy3z8xQ9",
+        "message": "Steal pot delivery to Max Nielson and share some of the profits with the people.",
+        "reward": 62,
+        "expiresIn": 5,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "u3WofnTR",
+        "message": "Create an advertisement campaign for Desmond Courtenay to promote their wagon based business",
+        "reward": 21,
+        "expiresIn": 6,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "QezPqyOb",
+        "message": "Rescue Gernot Spalding from grassland in Fernfirth where they are attacked by angry water",
+        "reward": 26,
+        "expiresIn": 7,
+        "probability": "Gamble",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "P14qocFk"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 125,
+      "score": 225,
+      "highScore": 0,
+      "turn": 11,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "pTU7LxBk",
+        "message": "Help Grant Harland to reach an agreement with Shemer Gabrielson on the matters of disputed beer mug",
+        "reward": 16,
+        "expiresIn": 3,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "epkO11xD",
+        "message": "Steal house delivery to Rhode Phillips and share some of the profits with the people.",
+        "reward": 70,
+        "expiresIn": 3,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "ImM9V3Gt",
+        "message": "Create an advertisement campaign for Edward Kendrick to promote their chicken based business",
+        "reward": 37,
+        "expiresIn": 3,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "fbn00UPA",
+        "message": "Help Anant Peterson to reach an agreement with Neo Wickham on the matters of disputed chicken",
+        "reward": 8,
+        "expiresIn": 3,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "gM1EgdHI",
+        "message": "Steal house delivery to Pavica Christopherson and share some of the profits with the people.",
+        "reward": 63,
+        "expiresIn": 3,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "6NdQ0AqJ",
+        "message": "Create an advertisement campaign for Vayu Kimberley to promote their house based business",
+        "reward": 17,
+        "expiresIn": 3,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "Iy3z8xQ9",
+        "message": "Steal pot delivery to Max Nielson and share some of the profits with the people.",
+        "reward": 62,
+        "expiresIn": 4,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "u3WofnTR",
+        "message": "Create an advertisement campaign for Desmond Courtenay to promote their wagon based business",
+        "reward": 21,
+        "expiresIn": 5,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "QezPqyOb",
+        "message": "Rescue Gernot Spalding from grassland in Fernfirth where they are attacked by angry water",
+        "reward": 26,
+        "expiresIn": 6,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "VzCcEu4H",
+        "message": "Help Zhuldyz Samuels to write their biographical novel about their difficulties with a deranged house",
+        "reward": 28,
+        "expiresIn": 7,
+        "probability": "Playing with fire",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "fbn00UPA"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 133,
+      "score": 233,
+      "highScore": 0,
+      "turn": 12,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "pTU7LxBk",
+        "message": "Help Grant Harland to reach an agreement with Shemer Gabrielson on the matters of disputed beer mug",
+        "reward": 16,
+        "expiresIn": 2,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "epkO11xD",
+        "message": "Steal house delivery to Rhode Phillips and share some of the profits with the people.",
+        "reward": 70,
+        "expiresIn": 2,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "ImM9V3Gt",
+        "message": "Create an advertisement campaign for Edward Kendrick to promote their chicken based business",
+        "reward": 37,
+        "expiresIn": 2,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "gM1EgdHI",
+        "message": "Steal house delivery to Pavica Christopherson and share some of the profits with the people.",
+        "reward": 63,
+        "expiresIn": 2,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "6NdQ0AqJ",
+        "message": "Create an advertisement campaign for Vayu Kimberley to promote their house based business",
+        "reward": 17,
+        "expiresIn": 2,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "Iy3z8xQ9",
+        "message": "Steal pot delivery to Max Nielson and share some of the profits with the people.",
+        "reward": 62,
+        "expiresIn": 3,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "u3WofnTR",
+        "message": "Create an advertisement campaign for Desmond Courtenay to promote their wagon based business",
+        "reward": 21,
+        "expiresIn": 4,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "QezPqyOb",
+        "message": "Rescue Gernot Spalding from grassland in Fernfirth where they are attacked by angry water",
+        "reward": 26,
+        "expiresIn": 5,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "VzCcEu4H",
+        "message": "Help Zhuldyz Samuels to write their biographical novel about their difficulties with a deranged house",
+        "reward": 28,
+        "expiresIn": 6,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "ZZd792Eb",
+        "message": "Create an advertisement campaign for Osvaldo Sappington to promote their wagon based business",
+        "reward": 30,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "ZZd792Eb"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 163,
+      "score": 263,
+      "highScore": 0,
+      "turn": 13,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "BuyItem",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "itemId": "gas"
+    },
+    "response": {
+      "shoppingSuccess": true,
+      "gold": 63,
+      "lives": 2,
+      "level": 2,
+      "turn": 14
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "Iy3z8xQ9",
+        "message": "Steal pot delivery to Max Nielson and share some of the profits with the people.",
+        "reward": 62,
+        "expiresIn": 1,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "u3WofnTR",
+        "message": "Create an advertisement campaign for Desmond Courtenay to promote their wagon based business",
+        "reward": 21,
+        "expiresIn": 2,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "QezPqyOb",
+        "message": "Rescue Gernot Spalding from grassland in Fernfirth where they are attacked by angry water",
+        "reward": 26,
+        "expiresIn": 3,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "VzCcEu4H",
+        "message": "Help Zhuldyz Samuels to write their biographical novel about their difficulties with a deranged house",
+        "reward": 28,
+        "expiresIn": 4,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "5GV3p8PQ",
+        "message": "Help Quincey Jephson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 24,
+        "expiresIn": 6,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "05PGJc3s",
+        "message": "Help Constantine Peacock to sell an unordinary chariot on the local market",
+        "reward": 22,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "W4Cxqjaa",
+        "message": "Help Dido William to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 32,
+        "expiresIn": 7,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "IC7ItRSz",
+        "message": "Escort Tottie Comstock to steppe in Fallfire where they can meet with their long lost bucket",
+        "reward": 85,
+        "expiresIn": 7,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "2ioKwn2j",
+        "message": "Create an advertisement campaign for Itsasne Courtenay to promote their turnips based business",
+        "reward": 44,
+        "expiresIn": 7,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "lnfzWLwe",
+        "message": "Help Iset Arthurson to write their biographical novel about their difficulties with a deranged chicken",
+        "reward": 28,
+        "expiresIn": 7,
+        "probability": "Playing with fire",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "05PGJc3s"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 85,
+      "score": 285,
+      "highScore": 0,
+      "turn": 15,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "u3WofnTR",
+        "message": "Create an advertisement campaign for Desmond Courtenay to promote their wagon based business",
+        "reward": 21,
+        "expiresIn": 1,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "QezPqyOb",
+        "message": "Rescue Gernot Spalding from grassland in Fernfirth where they are attacked by angry water",
+        "reward": 26,
+        "expiresIn": 2,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "VzCcEu4H",
+        "message": "Help Zhuldyz Samuels to write their biographical novel about their difficulties with a deranged house",
+        "reward": 28,
+        "expiresIn": 3,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "5GV3p8PQ",
+        "message": "Help Quincey Jephson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 24,
+        "expiresIn": 5,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "W4Cxqjaa",
+        "message": "Help Dido William to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 32,
+        "expiresIn": 6,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "IC7ItRSz",
+        "message": "Escort Tottie Comstock to steppe in Fallfire where they can meet with their long lost bucket",
+        "reward": 85,
+        "expiresIn": 6,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "2ioKwn2j",
+        "message": "Create an advertisement campaign for Itsasne Courtenay to promote their turnips based business",
+        "reward": 44,
+        "expiresIn": 6,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "lnfzWLwe",
+        "message": "Help Iset Arthurson to write their biographical novel about their difficulties with a deranged chicken",
+        "reward": 28,
+        "expiresIn": 6,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "SHNavZmL",
+        "message": "Help Dunya Deering to write their biographical novel about their difficulties with a deranged wagon",
+        "reward": 34,
+        "expiresIn": 7,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "sGuYd3ij",
+        "message": "Escort Svanhildr Paterson to peninsula in Bloodhill where they can meet with their long lost pot",
+        "reward": 67,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "sGuYd3ij"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 152,
+      "score": 352,
+      "highScore": 0,
+      "turn": 16,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "BuyItem",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "itemId": "wax"
+    },
+    "response": {
+      "shoppingSuccess": true,
+      "gold": 52,
+      "lives": 2,
+      "level": 3,
+      "turn": 17
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "VzCcEu4H",
+        "message": "Help Zhuldyz Samuels to write their biographical novel about their difficulties with a deranged house",
+        "reward": 28,
+        "expiresIn": 1,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "5GV3p8PQ",
+        "message": "Help Quincey Jephson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 24,
+        "expiresIn": 3,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "W4Cxqjaa",
+        "message": "Help Dido William to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 32,
+        "expiresIn": 4,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "IC7ItRSz",
+        "message": "Escort Tottie Comstock to steppe in Fallfire where they can meet with their long lost bucket",
+        "reward": 85,
+        "expiresIn": 4,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "2ioKwn2j",
+        "message": "Create an advertisement campaign for Itsasne Courtenay to promote their turnips based business",
+        "reward": 44,
+        "expiresIn": 4,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "lnfzWLwe",
+        "message": "Help Iset Arthurson to write their biographical novel about their difficulties with a deranged chicken",
+        "reward": 28,
+        "expiresIn": 4,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "SHNavZmL",
+        "message": "Help Dunya Deering to write their biographical novel about their difficulties with a deranged wagon",
+        "reward": 34,
+        "expiresIn": 5,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "yxAML8Pf",
+        "message": "Create an advertisement campaign for Zhyrgal Abrahamson to promote their cat based business",
+        "reward": 29,
+        "expiresIn": 6,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "eEM0S05oQzE=",
+        "message": "SW52ZXN0aWdhdGUgVGl5YW1pa2UgRmFpcmJhaXJuIGFuZCBmaW5kIG91dCB0aGVpciByZWxhdGlvbiB0byB0aGUgbWFnaWMgcG90Lg==",
+        "reward": 145,
+        "expiresIn": 2,
+        "probability": "SG1tbS4uLi4=",
+        "encrypted": 1
+      },
+      {
+        "adId": "aHYydXdGejA=",
+        "message": "SW52ZXN0aWdhdGUgWWlkZWwgUGF0cmljayBhbmQgZmluZCBvdXQgdGhlaXIgcmVsYXRpb24gdG8gdGhlIG1hZ2ljIHNxdWlycmVsLg==",
+        "reward": 161,
+        "expiresIn": 3,
+        "probability": "UmF0aGVyIGRldHJpbWVudGFs",
+        "encrypted": 1
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "SHNavZmL"
+    },
+    "response": {
+      "success": false,
+      "lives": 1,
+      "gold": 52,
+      "score": 352,
+      "highScore": 0,
+      "turn": 18,
+      "message": "You failed on the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "BuyItem",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "itemId": "hpot"
+    },
+    "response": {
+      "shoppingSuccess": true,
+      "gold": 2,
+      "lives": 2,
+      "level": 3,
+      "turn": 19
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "5GV3p8PQ",
+        "message": "Help Quincey Jephson to write their biographical novel about their difficulties with a deranged turnips",
+        "reward": 24,
+        "expiresIn": 1,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "W4Cxqjaa",
+        "message": "Help Dido William to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 32,
+        "expiresIn": 2,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "IC7ItRSz",
+        "message": "Escort Tottie Comstock to steppe in Fallfire where they can meet with their long lost bucket",
+        "reward": 85,
+        "expiresIn": 2,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "2ioKwn2j",
+        "message": "Create an advertisement campaign for Itsasne Courtenay to promote their turnips based business",
+        "reward": 44,
+        "expiresIn": 2,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "lnfzWLwe",
+        "message": "Help Iset Arthurson to write their biographical novel about their difficulties with a deranged chicken",
+        "reward": 28,
+        "expiresIn": 2,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "yxAML8Pf",
+        "message": "Create an advertisement campaign for Zhyrgal Abrahamson to promote their cat based business",
+        "reward": 29,
+        "expiresIn": 4,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "aHYydXdGejA=",
+        "message": "SW52ZXN0aWdhdGUgWWlkZWwgUGF0cmljayBhbmQgZmluZCBvdXQgdGhlaXIgcmVsYXRpb24gdG8gdGhlIG1hZ2ljIHNxdWlycmVsLg==",
+        "reward": 161,
+        "expiresIn": 1,
+        "probability": "UmF0aGVyIGRldHJpbWVudGFs",
+        "encrypted": 1
+      },
+      {
+        "adId": "5Vjr86hT",
+        "message": "Escort Wahyu Clinton to grassland in Frostdean where they can meet with their long lost wagon",
+        "reward": 77,
+        "expiresIn": 6,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "oPI5pVNW",
+        "message": "Help Bojidar Pressley to write their biographical novel about their difficulties with a deranged house",
+        "reward": 39,
+        "expiresIn": 6,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "cbXwBhym",
+        "message": "Escort Jozefo Rennell to meadow in Westville where they can meet with their long lost pot",
+        "reward": 95,
+        "expiresIn": 7,
+        "probability": "Hmmm....",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "5Vjr86hT"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 79,
+      "score": 429,
+      "highScore": 0,
+      "turn": 20,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "W4Cxqjaa",
+        "message": "Help Dido William to write their biographical novel about their difficulties with a deranged beer mug",
+        "reward": 32,
+        "expiresIn": 1,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "IC7ItRSz",
+        "message": "Escort Tottie Comstock to steppe in Fallfire where they can meet with their long lost bucket",
+        "reward": 85,
+        "expiresIn": 1,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "2ioKwn2j",
+        "message": "Create an advertisement campaign for Itsasne Courtenay to promote their turnips based business",
+        "reward": 44,
+        "expiresIn": 1,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "lnfzWLwe",
+        "message": "Help Iset Arthurson to write their biographical novel about their difficulties with a deranged chicken",
+        "reward": 28,
+        "expiresIn": 1,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "yxAML8Pf",
+        "message": "Create an advertisement campaign for Zhyrgal Abrahamson to promote their cat based business",
+        "reward": 29,
+        "expiresIn": 3,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "oPI5pVNW",
+        "message": "Help Bojidar Pressley to write their biographical novel about their difficulties with a deranged house",
+        "reward": 39,
+        "expiresIn": 5,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "cbXwBhym",
+        "message": "Escort Jozefo Rennell to meadow in Westville where they can meet with their long lost pot",
+        "reward": 95,
+        "expiresIn": 6,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "Em9ed7zf",
+        "message": "Rescue Adil Ledford from steppe in Westdrone where they are attacked by angry pan",
+        "reward": 31,
+        "expiresIn": 7,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "4cCm2brl",
+        "message": "Rescue Intira Sempers from steppe in Northdeen where they are attacked by angry chariot",
+        "reward": 36,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "RTitqvgh",
+        "message": "Rescue Sven Jefferson from field in Fernmire where they are attacked by angry bucket",
+        "reward": 33,
+        "expiresIn": 7,
+        "probability": "Walk in the park",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "4cCm2brl"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 115,
+      "score": 465,
+      "highScore": 0,
+      "turn": 21,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "yxAML8Pf",
+        "message": "Create an advertisement campaign for Zhyrgal Abrahamson to promote their cat based business",
+        "reward": 29,
+        "expiresIn": 2,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "oPI5pVNW",
+        "message": "Help Bojidar Pressley to write their biographical novel about their difficulties with a deranged house",
+        "reward": 39,
+        "expiresIn": 4,
+        "probability": "Playing with fire",
+        "encrypted": null
+      },
+      {
+        "adId": "cbXwBhym",
+        "message": "Escort Jozefo Rennell to meadow in Westville where they can meet with their long lost pot",
+        "reward": 95,
+        "expiresIn": 5,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "Em9ed7zf",
+        "message": "Rescue Adil Ledford from steppe in Westdrone where they are attacked by angry pan",
+        "reward": 31,
+        "expiresIn": 6,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "RTitqvgh",
+        "message": "Rescue Sven Jefferson from field in Fernmire where they are attacked by angry bucket",
+        "reward": 33,
+        "expiresIn": 6,
+        "probability": "Walk in the park",
+        "encrypted": null
+      },
+      {
+        "adId": "NnY0TkZ0Y1c=",
+        "message": "SW52ZXN0aWdhdGUgSmFtZWVsIEdyaWZmaW4gYW5kIGZpbmQgb3V0IHRoZWlyIHJlbGF0aW9uIHRvIHRoZSBtYWdpYyBzcXVpcnJlbC4=",
+        "reward": 157,
+        "expiresIn": 3,
+        "probability": "R2FtYmxl",
+        "encrypted": 1
+      },
+      {
+        "adId": "kBwzQhOR",
+        "message": "Escort Roan Sargent to peninsula in Loweburg where they can meet with their long lost water",
+        "reward": 79,
+        "expiresIn": 7,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "I0rht982",
+        "message": "Rescue Thirza Rennold from pasture in Burnssheen where they are attacked by angry pot",
+        "reward": 42,
+        "expiresIn": 7,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "6XwX9OaB",
+        "message": "Help defending village in Southbane from the intruders",
+        "reward": 160,
+        "expiresIn": 7,
+        "probability": "Sure thing",
+        "encrypted": null
+      },
+      {
+        "adId": "wBCWdFro",
+        "message": "Rescue Haluk Salvage from field in Evergannon where they are attacked by angry dog",
+        "reward": 35,
+        "expiresIn": 7,
+        "probability": "Hmmm....",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "6XwX9OaB"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 275,
+      "score": 625,
+      "highScore": 0,
+      "turn": 22,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "BuyItem",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "itemId": "tricks"
+    },
+    "response": {
+      "shoppingSuccess": true,
+      "gold": 175,
+      "lives": 2,
+      "level": 4,
+      "turn": 23
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "oPI5pVNW",
+        "message": "Help Bojidar Pressley to write their biographical novel about their difficulties with a deranged house",
+        "reward": 39,
+        "expiresIn": 2,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "cbXwBhym",
+        "message": "Escort Jozefo Rennell to meadow in Westville where they can meet with their long lost pot",
+        "reward": 95,
+        "expiresIn": 3,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "Em9ed7zf",
+        "message": "Rescue Adil Ledford from steppe in Westdrone where they are attacked by angry pan",
+        "reward": 31,
+        "expiresIn": 4,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "RTitqvgh",
+        "message": "Rescue Sven Jefferson from field in Fernmire where they are attacked by angry bucket",
+        "reward": 33,
+        "expiresIn": 4,
+        "probability": "Walk in the park",
+        "encrypted": null
+      },
+      {
+        "adId": "NnY0TkZ0Y1c=",
+        "message": "SW52ZXN0aWdhdGUgSmFtZWVsIEdyaWZmaW4gYW5kIGZpbmQgb3V0IHRoZWlyIHJlbGF0aW9uIHRvIHRoZSBtYWdpYyBzcXVpcnJlbC4=",
+        "reward": 157,
+        "expiresIn": 1,
+        "probability": "SG1tbS4uLi4=",
+        "encrypted": 1
+      },
+      {
+        "adId": "kBwzQhOR",
+        "message": "Escort Roan Sargent to peninsula in Loweburg where they can meet with their long lost water",
+        "reward": 79,
+        "expiresIn": 5,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "I0rht982",
+        "message": "Rescue Thirza Rennold from pasture in Burnssheen where they are attacked by angry pot",
+        "reward": 42,
+        "expiresIn": 5,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "wBCWdFro",
+        "message": "Rescue Haluk Salvage from field in Evergannon where they are attacked by angry dog",
+        "reward": 35,
+        "expiresIn": 5,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "hduWc792",
+        "message": "Escort Germain Vincent to thrift shoppe in Whitewatch where they can meet with their long lost weed",
+        "reward": 86,
+        "expiresIn": 6,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "UHFjVGNDeEg=",
+        "message": "SW5maWx0cmF0ZSBUaGUgU2NhcmxldCBDcm9jb2RpbGUgVHJpYmUgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 203,
+        "expiresIn": 2,
+        "probability": "U3VpY2lkZSBtaXNzaW9u",
+        "encrypted": 1
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "RTitqvgh"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 208,
+      "score": 658,
+      "highScore": 0,
+      "turn": 24,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "BuyItem",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "itemId": "wingpot"
+    },
+    "response": {
+      "shoppingSuccess": true,
+      "gold": 108,
+      "lives": 2,
+      "level": 5,
+      "turn": 25
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "cbXwBhym",
+        "message": "Escort Jozefo Rennell to meadow in Westville where they can meet with their long lost pot",
+        "reward": 95,
+        "expiresIn": 1,
+        "probability": "Quite likely",
+        "encrypted": null
+      },
+      {
+        "adId": "Em9ed7zf",
+        "message": "Rescue Adil Ledford from steppe in Westdrone where they are attacked by angry pan",
+        "reward": 31,
+        "expiresIn": 2,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "kBwzQhOR",
+        "message": "Escort Roan Sargent to peninsula in Loweburg where they can meet with their long lost water",
+        "reward": 79,
+        "expiresIn": 3,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "I0rht982",
+        "message": "Rescue Thirza Rennold from pasture in Burnssheen where they are attacked by angry pot",
+        "reward": 42,
+        "expiresIn": 3,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "wBCWdFro",
+        "message": "Rescue Haluk Salvage from field in Evergannon where they are attacked by angry dog",
+        "reward": 35,
+        "expiresIn": 3,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "hduWc792",
+        "message": "Escort Germain Vincent to thrift shoppe in Whitewatch where they can meet with their long lost weed",
+        "reward": 86,
+        "expiresIn": 4,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "IpwRhqcH",
+        "message": "Steal pan from Jojo Alexander",
+        "reward": 108,
+        "expiresIn": 6,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "zsWlJjnD",
+        "message": "Steal pan from Beste Bateson",
+        "reward": 119,
+        "expiresIn": 6,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "RkNmaVh4UWs=",
+        "message": "SW52ZXN0aWdhdGUgVHViYSBXaW5zbG93IGFuZCBmaW5kIG91dCB0aGVpciByZWxhdGlvbiB0byB0aGUgbWFnaWMgaG91c2Uu",
+        "reward": 164,
+        "expiresIn": 3,
+        "probability": "V2FsayBpbiB0aGUgcGFyaw==",
+        "encrypted": 1
+      },
+      {
+        "adId": "6RTseieq",
+        "message": "Help defending village in Highkeep from the intruders",
+        "reward": 167,
+        "expiresIn": 7,
+        "probability": "Walk in the park",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "6RTseieq"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 275,
+      "score": 825,
+      "highScore": 0,
+      "turn": 26,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "Em9ed7zf",
+        "message": "Rescue Adil Ledford from steppe in Westdrone where they are attacked by angry pan",
+        "reward": 31,
+        "expiresIn": 1,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "kBwzQhOR",
+        "message": "Escort Roan Sargent to peninsula in Loweburg where they can meet with their long lost water",
+        "reward": 79,
+        "expiresIn": 2,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "I0rht982",
+        "message": "Rescue Thirza Rennold from pasture in Burnssheen where they are attacked by angry pot",
+        "reward": 42,
+        "expiresIn": 2,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "wBCWdFro",
+        "message": "Rescue Haluk Salvage from field in Evergannon where they are attacked by angry dog",
+        "reward": 35,
+        "expiresIn": 2,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "hduWc792",
+        "message": "Escort Germain Vincent to thrift shoppe in Whitewatch where they can meet with their long lost weed",
+        "reward": 86,
+        "expiresIn": 3,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "IpwRhqcH",
+        "message": "Steal pan from Jojo Alexander",
+        "reward": 108,
+        "expiresIn": 5,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "zsWlJjnD",
+        "message": "Steal pan from Beste Bateson",
+        "reward": 119,
+        "expiresIn": 5,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "RkNmaVh4UWs=",
+        "message": "SW52ZXN0aWdhdGUgVHViYSBXaW5zbG93IGFuZCBmaW5kIG91dCB0aGVpciByZWxhdGlvbiB0byB0aGUgbWFnaWMgaG91c2Uu",
+        "reward": 164,
+        "expiresIn": 2,
+        "probability": "V2FsayBpbiB0aGUgcGFyaw==",
+        "encrypted": 1
+      },
+      {
+        "adId": "QlQ4ZzFwYm0=",
+        "message": "SW5maWx0cmF0ZSBUaGUgUnVieSBUaG9ybnMgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 215,
+        "expiresIn": 2,
+        "probability": "SW1wb3NzaWJsZQ==",
+        "encrypted": 1
+      },
+      {
+        "adId": "gzdiuq1m",
+        "message": "Rescue Tancredi Quickley from plains in Dornwell where they are attacked by angry clothes",
+        "reward": 51,
+        "expiresIn": 7,
+        "probability": "Walk in the park",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "gzdiuq1m"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 326,
+      "score": 876,
+      "highScore": 0,
+      "turn": 27,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "kBwzQhOR",
+        "message": "Escort Roan Sargent to peninsula in Loweburg where they can meet with their long lost water",
+        "reward": 79,
+        "expiresIn": 1,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "I0rht982",
+        "message": "Rescue Thirza Rennold from pasture in Burnssheen where they are attacked by angry pot",
+        "reward": 42,
+        "expiresIn": 1,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "wBCWdFro",
+        "message": "Rescue Haluk Salvage from field in Evergannon where they are attacked by angry dog",
+        "reward": 35,
+        "expiresIn": 1,
+        "probability": "Hmmm....",
+        "encrypted": null
+      },
+      {
+        "adId": "hduWc792",
+        "message": "Escort Germain Vincent to thrift shoppe in Whitewatch where they can meet with their long lost weed",
+        "reward": 86,
+        "expiresIn": 2,
+        "probability": "Risky",
+        "encrypted": null
+      },
+      {
+        "adId": "IpwRhqcH",
+        "message": "Steal pan from Jojo Alexander",
+        "reward": 108,
+        "expiresIn": 4,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "zsWlJjnD",
+        "message": "Steal pan from Beste Bateson",
+        "reward": 119,
+        "expiresIn": 4,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "RkNmaVh4UWs=",
+        "message": "SW52ZXN0aWdhdGUgVHViYSBXaW5zbG93IGFuZCBmaW5kIG91dCB0aGVpciByZWxhdGlvbiB0byB0aGUgbWFnaWMgaG91c2Uu",
+        "reward": 164,
+        "expiresIn": 1,
+        "probability": "V2FsayBpbiB0aGUgcGFyaw==",
+        "encrypted": 1
+      },
+      {
+        "adId": "QlQ4ZzFwYm0=",
+        "message": "SW5maWx0cmF0ZSBUaGUgUnVieSBUaG9ybnMgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 215,
+        "expiresIn": 1,
+        "probability": "SW1wb3NzaWJsZQ==",
+        "encrypted": 1
+      },
+      {
+        "adId": "TFNwd204a3o=",
+        "message": "SW5maWx0cmF0ZSBUaGUgSW52aW5jaWJsZXMgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 188,
+        "expiresIn": 2,
+        "probability": "U3VpY2lkZSBtaXNzaW9u",
+        "encrypted": 1
+      },
+      {
+        "adId": "AZj1sTtU",
+        "message": "Rescue Tempest Hatheway from thrift shoppe in Southheart where they are attacked by angry pot",
+        "reward": 41,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "AZj1sTtU"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 367,
+      "score": 917,
+      "highScore": 0,
+      "turn": 28,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "BuyItem",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "itemId": "ch"
+    },
+    "response": {
+      "shoppingSuccess": true,
+      "gold": 67,
+      "lives": 2,
+      "level": 7,
+      "turn": 29
+    }
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "IpwRhqcH",
+        "message": "Steal pan from Jojo Alexander",
+        "reward": 108,
+        "expiresIn": 2,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "zsWlJjnD",
+        "message": "Steal pan from Beste Bateson",
+        "reward": 119,
+        "expiresIn": 2,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "X4AXOnHt",
+        "message": "Xvyy Iynqyra Jbbqjneq jvgu jntba naq znxr Pbql Puevfgvnaf sebz fgebatubyq va Qbeaqrra gb gnxr gur oynzr",
+        "reward": 173,
+        "expiresIn": 1,
+        "probability": "Vzcbffvoyr",
+        "encrypted": 2
+      },
+      {
+        "adId": "oPovOKcW",
+        "message": "Xvyy Càhyn Jnyynpr jvgu qbt naq znxr Oyntn Fhzzresvryq sebz pnfgyr va Snyytvyy gb gnxr gur oynzr",
+        "reward": 168,
+        "expiresIn": 1,
+        "probability": "Fhvpvqr zvffvba",
+        "encrypted": 2
+      },
+      {
+        "adId": "SWJzeXBkWFc=",
+        "message": "SW5maWx0cmF0ZSBUaGUgWWVsbG93IFNhYmVyIFNpc3Rlcmhvb2QgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 221,
+        "expiresIn": 1,
+        "probability": "U3VpY2lkZSBtaXNzaW9u",
+        "encrypted": 1
+      },
+      {
+        "adId": "a3pBMXhVd3Q=",
+        "message": "SW52ZXN0aWdhdGUgSGlsZGlnYXJkaXMgQ2FydHdyaWdodCBhbmQgZmluZCBvdXQgdGhlaXIgcmVsYXRpb24gdG8gdGhlIG1hZ2ljIGJlZXIgbXVnLg==",
+        "reward": 189,
+        "expiresIn": 2,
+        "probability": "UXVpdGUgbGlrZWx5",
+        "encrypted": 1
+      },
+      {
+        "adId": "UK7q4ac6",
+        "message": "Xvyy Nqry Gubzcfrgg jvgu ohpxrg naq znxr Yébavqr Xvafyrl sebz pnfgyr va Erqfcevat gb gnxr gur oynzr",
+        "reward": 144,
+        "expiresIn": 1,
+        "probability": "Fhvpvqr zvffvba",
+        "encrypted": 2
+      },
+      {
+        "adId": "ZFJrZ2t3UzA=",
+        "message": "SW5maWx0cmF0ZSBUaGUgWWVsbG93IEhvcm4gQXNzb2NpYXRpb24gYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 206,
+        "expiresIn": 1,
+        "probability": "UmF0aGVyIGRldHJpbWVudGFs",
+        "encrypted": 1
+      },
+      {
+        "adId": "Uf6m7dhW",
+        "message": "Rescue Ellinor Christison from steppe in Fangwhyte where they are attacked by angry house",
+        "reward": 44,
+        "expiresIn": 7,
+        "probability": "Piece of cake",
+        "encrypted": null
+      },
+      {
+        "adId": "S1ZEcjQ1UVY=",
+        "message": "SW52ZXN0aWdhdGUgRmluYmFyIENoYWR3aWNrIGFuZCBmaW5kIG91dCB0aGVpciByZWxhdGlvbiB0byB0aGUgbWFnaWMgYnVja2V0Lg==",
+        "reward": 185,
+        "expiresIn": 3,
+        "probability": "U3VpY2lkZSBtaXNzaW9u",
+        "encrypted": 1
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "Uf6m7dhW"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 111,
+      "score": 961,
+      "highScore": 0,
+      "turn": 30,
+      "message": "You successfully solved the mission!"
+    }
+  },
+  {
+    "event": "GetShop",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "id": "hpot",
+        "name": "Healing potion",
+        "cost": 50
+      },
+      {
+        "id": "cs",
+        "name": "Claw Sharpening",
+        "cost": 100
+      },
+      {
+        "id": "gas",
+        "name": "Gasoline",
+        "cost": 100
+      },
+      {
+        "id": "wax",
+        "name": "Copper Plating",
+        "cost": 100
+      },
+      {
+        "id": "tricks",
+        "name": "Book of Tricks",
+        "cost": 100
+      },
+      {
+        "id": "wingpot",
+        "name": "Potion of Stronger Wings",
+        "cost": 100
+      },
+      {
+        "id": "ch",
+        "name": "Claw Honing",
+        "cost": 300
+      },
+      {
+        "id": "rf",
+        "name": "Rocket Fuel",
+        "cost": 300
+      },
+      {
+        "id": "iron",
+        "name": "Iron Plating",
+        "cost": 300
+      },
+      {
+        "id": "mtrix",
+        "name": "Book of Megatricks",
+        "cost": 300
+      },
+      {
+        "id": "wingpotmax",
+        "name": "Potion of Awesome Wings",
+        "cost": 300
+      }
+    ]
+  },
+  {
+    "event": "GetTasks",
+    "request": {
+      "gameId": "QLSk8wmB"
+    },
+    "response": [
+      {
+        "adId": "IpwRhqcH",
+        "message": "Steal pan from Jojo Alexander",
+        "reward": 108,
+        "expiresIn": 1,
+        "probability": "Gamble",
+        "encrypted": null
+      },
+      {
+        "adId": "zsWlJjnD",
+        "message": "Steal pan from Beste Bateson",
+        "reward": 119,
+        "expiresIn": 1,
+        "probability": "Rather detrimental",
+        "encrypted": null
+      },
+      {
+        "adId": "a3pBMXhVd3Q=",
+        "message": "SW52ZXN0aWdhdGUgSGlsZGlnYXJkaXMgQ2FydHdyaWdodCBhbmQgZmluZCBvdXQgdGhlaXIgcmVsYXRpb24gdG8gdGhlIG1hZ2ljIGJlZXIgbXVnLg==",
+        "reward": 189,
+        "expiresIn": 1,
+        "probability": "UXVpdGUgbGlrZWx5",
+        "encrypted": 1
+      },
+      {
+        "adId": "S1ZEcjQ1UVY=",
+        "message": "SW52ZXN0aWdhdGUgRmluYmFyIENoYWR3aWNrIGFuZCBmaW5kIG91dCB0aGVpciByZWxhdGlvbiB0byB0aGUgbWFnaWMgYnVja2V0Lg==",
+        "reward": 185,
+        "expiresIn": 2,
+        "probability": "U3VpY2lkZSBtaXNzaW9u",
+        "encrypted": 1
+      },
+      {
+        "adId": "UnRxMVg2cUY=",
+        "message": "SW5maWx0cmF0ZSBUaGUgUm95YWwgU2hhcmt0ZWV0aCBhbmQgcmVjb3ZlciB0aGVpciBzZWNyZXRzLg==",
+        "reward": 223,
+        "expiresIn": 2,
+        "probability": "U3VpY2lkZSBtaXNzaW9u",
+        "encrypted": 1
+      },
+      {
+        "adId": "MkEzajRmVHA=",
+        "message": "SW5maWx0cmF0ZSBUaGUgSW52aW5jaWJsZXMgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 211,
+        "expiresIn": 2,
+        "probability": "U3VpY2lkZSBtaXNzaW9u",
+        "encrypted": 1
+      },
+      {
+        "adId": "TzBFM1FiZlQ=",
+        "message": "SW5maWx0cmF0ZSBUaGUgSXZvcnkgQWxsaWdhdG9yIEdhbmcgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 199,
+        "expiresIn": 2,
+        "probability": "UGxheWluZyB3aXRoIGZpcmU=",
+        "encrypted": 1
+      },
+      {
+        "adId": "NDlGQ0lHQnU=",
+        "message": "SW5maWx0cmF0ZSBUaGUgUnVieSBUaG9ybnMgYW5kIHJlY292ZXIgdGhlaXIgc2VjcmV0cy4=",
+        "reward": 196,
+        "expiresIn": 2,
+        "probability": "UGxheWluZyB3aXRoIGZpcmU=",
+        "encrypted": 1
+      },
+      {
+        "adId": "59hgjbvJ",
+        "message": "Help defending pasture in Newsheen from the intruders",
+        "reward": 138,
+        "expiresIn": 7,
+        "probability": "Walk in the park",
+        "encrypted": null
+      },
+      {
+        "adId": "aEo2Vlo2djg=",
+        "message": "SW52ZXN0aWdhdGUgSMOhbGZkYW4gQWNlIGFuZCBmaW5kIG91dCB0aGVpciByZWxhdGlvbiB0byB0aGUgbWFnaWMgd2F0ZXIu",
+        "reward": 231,
+        "expiresIn": 3,
+        "probability": "V2FsayBpbiB0aGUgcGFyaw==",
+        "encrypted": 1
+      }
+    ]
+  },
+  {
+    "event": "SolveTask",
+    "request": {
+      "gameId": "QLSk8wmB",
+      "taskId": "59hgjbvJ"
+    },
+    "response": {
+      "success": true,
+      "lives": 2,
+      "gold": 249,
+      "score": 1099,
+      "highScore": 0,
+      "turn": 31,
+      "message": "You successfully solved the mission!"
+    }
+  }
+]
