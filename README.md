@@ -17,6 +17,12 @@ This project is a program that plays the Dragons of Mugloar game.
   ```sh
   https://maven.apache.org/download.cgi
   ```
+
+* [Docker](https://www.docker.com/products/docker-desktop/)
+
+  ```sh
+  https://www.docker.com/products/docker-desktop/
+  ```
   
 ## About the program
 
@@ -111,6 +117,33 @@ See images in Types -> reward.
 4. Run the program
    ```sh
    java -jar ./target/dragon-backend-1.0-SNAPSHOT.jar
+   ```
+   
+### Build and run using Docker
+
+1. Download .zip or clone project from GitHub.
+
+2. Unzip and/or go to project location in __terminal__.
+
+3. Build and run project using docker
+   ```sh
+   docker compose up
+   ```
+
+4. To stop container use
+   ```sh
+   docker compose down
+   ```
+   
+If you want to run multiple games then use the environmental variable, for example 10.
+   ```sh
+   APP_ARG=10 docker-compose up
+   ```
+
+N.B!
+Use code below, if project was updated after you last used the docker compose!
+   ```sh
+   docker compose up --build
    ```
    
 ### Additional variables

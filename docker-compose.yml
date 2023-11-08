@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: dragon-backend
+    image: dragon-app
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - APP_ARG=${APP_ARG}
