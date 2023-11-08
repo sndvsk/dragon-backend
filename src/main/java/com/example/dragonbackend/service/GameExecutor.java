@@ -125,7 +125,7 @@ public class GameExecutor {
             // If there are multiple games, print detailed statistics
             double winPercentage = (wins / (double) totalGames) * 100;
             String winPercentageFormatted = String.format("%.2f", winPercentage);
-            String meanScoreFormatted = String.format("%.2f", winPercentage);
+            String meanScoreFormatted = String.format("%.2f", meanScore);
             logger.info("Games played: {}, Wins: {}, Losses: {}, Failed: {}, Win Percentage: {}%, Mean Score: {}",
                     totalGames, wins, losses, failedGamesSize, winPercentageFormatted, meanScoreFormatted);
             logger.info("Total time taken: {} ms, Average time per game: {} ms",

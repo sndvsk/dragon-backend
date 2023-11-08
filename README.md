@@ -72,7 +72,8 @@ The asynchronous and parallel execution of the games was implemented to easily t
 The games could be won(by having more than 1000 points), lost(by having less than 1000 points and 0 lives)
 or failed(server not responding to request with retries and less than 1000 points).
 
-By running 100 and 1000 games at the same time the results are positive: more than 90% wins(on both images 99%)!
+By running 100 and 1000 games, the results are positive:
+more than 90% games are wins(on both images more than 98%)!
 
 ![results_100_games](src/main/resources/static/assets/images/results_100_games.jpg)
 
